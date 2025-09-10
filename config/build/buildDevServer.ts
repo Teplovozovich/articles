@@ -4,7 +4,7 @@ import { BuildOptions } from "./types/config";
 export function buildDevServer(options: BuildOptions): WebServerConfiguration {
     return {
         port: options.port,
-        open: true, 
+        open: true,
     }
 
 }
